@@ -1,9 +1,0 @@
-Song: 
-  Tempo: 48 
-  Flow: 
-    - Pattern1:  x1 
-Pattern1: 
-  - 909Kit/SDNormal.wav:  XX.X.....XXXXXXX 
-  - 909Kit/SDNormal.wav:  XXXX..X.XX.XX.XX 
-  - 909Kit/LTMid.wav:  X...XX.XX..X.X.. 
-  - 909Kit/OH 2.wav:  .X.XX.X.X...X.X. 

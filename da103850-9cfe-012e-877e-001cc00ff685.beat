@@ -1,9 +1,0 @@
-Song: 
-  Tempo: 116 
-  Flow: 
-    - Pattern1:  x1 
-Pattern1: 
-  - 909Kit/BD Full.wav:  ...XXX.XX.X.X..X 
-  - 909Kit/LTMid.wav:  X.XXX.X....XXX.. 
-  - 909Kit/MTHi.wav:  X.........XXX..X 
-  - 909Kit/Ride Low.wav:  ..X..XXX..X...XX 

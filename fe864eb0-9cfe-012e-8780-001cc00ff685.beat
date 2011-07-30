@@ -1,9 +1,0 @@
-Song: 
-  Tempo: 267 
-  Flow: 
-    - Pattern1:  x1 
-Pattern1: 
-  - 909Kit/SD Hi.wav:  ...X.X.XXX..X... 
-  - 909Kit/SDNormal.wav:  XX....XXX..XXXX. 
-  - 909Kit/Crash Mid.wav:  .XX.X.XXX.XX.X.X 
-  - 909Kit/CH 2.wav:  XXXX...X..XXX.XX 

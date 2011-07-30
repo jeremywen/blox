@@ -1,9 +1,0 @@
-Song: 
-  Tempo: 59 
-  Flow: 
-    - Pattern1:  x1 
-Pattern1: 
-  - 909Kit/MTHi.wav:  X...XX.XX.....XX 
-  - 909Kit/Ride Low.wav:  ..X.XXX..X..X.X. 
-  - 909Kit/HT Mid.wav:  XX...X.X.XX..XXX 
-  - 909Kit/HT Low.wav:  ..XX..XX.......X 

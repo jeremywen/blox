@@ -1,9 +1,0 @@
-Song: 
-  Tempo: 275 
-  Flow: 
-    - Pattern1:  x1 
-Pattern1: 
-  - 909Kit/SD Full.wav:  XX..X.X..X.X.XX. 
-  - 909Kit/BDNormal.wav:  XXXXXX..X..X.X.X 
-  - 909Kit/CH1.wav:  .X.......X.X.X.X 
-  - 909Kit/CH1.wav:  X..X.X....XXX.X. 

@@ -1,9 +1,0 @@
-Song: 
-  Tempo: 192 
-  Flow: 
-    - Pattern1:  x1 
-Pattern1: 
-  - 909Kit/RS.WAV:  .X..XX..XXX..... 
-  - 909Kit/SD Full.wav:  .XXXX.X.....X.XX 
-  - 909Kit/OH 1.wav:  X.X.XX.X.XXX.XX. 
-  - 909Kit/Crash Hi.wav:  .XX...XXXX.X.XX. 

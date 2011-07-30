@@ -1,9 +1,0 @@
-Song: 
-  Tempo: 44 
-  Flow: 
-    - Pattern1:  x1 
-Pattern1: 
-  - 909Kit/MT Mid.wav:  XXXX..X...XXXXX. 
-  - 909Kit/SD LowNoise.wav:  XXXXX..XXX.XX.X. 
-  - 909Kit/Crash Hi.wav:  ...X..XXXX.XXX.X 
-  - 909Kit/OH 1.wav:  XX.XXXXX.X..X.XX 

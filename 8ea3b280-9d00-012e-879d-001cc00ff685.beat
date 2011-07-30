@@ -1,9 +1,0 @@
-Song: 
-  Tempo: 218 
-  Flow: 
-    - Pattern1:  x1 
-Pattern1: 
-  - 909Kit/OH 2.wav:  XXXXXXX...XX.X.. 
-  - 909Kit/HT Low.wav:  ...XX.XXX.X.X... 
-  - 909Kit/BD Full.wav:  .....X.X...XXX.X 
-  - 909Kit/CH 2.wav:  .XXXXXX...X.X..X 
