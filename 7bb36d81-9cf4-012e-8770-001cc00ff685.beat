@@ -1,0 +1,9 @@
+Song: 
+  Tempo: 96 
+  Flow: 
+    - Pattern1:  x1 
+Pattern1: 
+  - 909Kit/HT Low.wav:  X.XX..XX.XX.XX.. 
+  - 909Kit/CH 2.wav:  X..XXXXXXXXX.X.X 
+  - 909Kit/MT Mid.wav:  .XXX.XX..X.....X 
+  - 909Kit/CH1.wav:  .....XX..X.XX.XX 

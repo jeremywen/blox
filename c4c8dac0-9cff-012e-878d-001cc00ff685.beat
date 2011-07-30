@@ -1,0 +1,9 @@
+Song: 
+  Tempo: 254 
+  Flow: 
+    - Pattern1:  x1 
+Pattern1: 
+  - 909Kit/LTMid.wav:  XXXX..X..X.X..X. 
+  - 909Kit/Crash Mid.wav:  X..X...XXXXXXXX. 
+  - 909Kit/HT Mid.wav:  ....X..X.X.XXXX. 
+  - 909Kit/OH 2.wav:  .X.XXX..X...XX.X 

@@ -1,0 +1,9 @@
+Song: 
+  Tempo: 50 
+  Flow: 
+    - Pattern1:  x1 
+Pattern1: 
+  - 909Kit/MTHi.wav:  .XX...XX.X.X.X.X 
+  - 909Kit/Crash Hi.wav:  ..X..X.XX...X.X. 
+  - 909Kit/RS.WAV:  ..X..X....XXXX.X 
+  - 909Kit/MT Low.wav:  XX.XX.XXX.X..XX. 

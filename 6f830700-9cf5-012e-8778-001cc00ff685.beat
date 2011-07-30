@@ -1,0 +1,9 @@
+Song: 
+  Tempo: 271 
+  Flow: 
+    - Pattern1:  x1 
+Pattern1: 
+  - 909Kit/Ride Hi.wav:  X....XX.XX.XX.XX 
+  - 909Kit/OH 2.wav:  X..X.XXX..XX.XXX 
+  - 909Kit/Ride Low.wav:  X.XXX.X....X..XX 
+  - 909Kit/CH 2.wav:  X.XX.X...X.X...X 

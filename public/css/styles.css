@@ -1,0 +1,160 @@
+/* Reset CSS */ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+    margin:0;
+    padding:0;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img{
+    border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var{
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after{
+    content:'';
+}
+abbr,acronym {
+    border:0;
+}
+body {
+    font:10px monospace;
+}
+table {
+    font-size:inherit;
+    font:100%;
+}
+select, input, textarea {
+    font:99% monospace;
+}
+pre, code {
+    font:115% monospace;
+    *font-size:100%;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+/* Hides from IE-mac \*/ * html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+/* End hide from IE-mac */ #nav {
+    z-index: 1000;
+}
+#contents {
+    z-index: 900;
+}
+#header #header div, #header #nav, h1, #header #clipboard_empty, #clipboard_buffer_container, #contents span.alternate, span.alternate {
+    font-family: 'monospace';
+}
+#header, #header div {
+    font-size: 12px;
+}
+#header {
+}
+#header h1 {
+    float: left;
+}
+#header #nav {
+    padding:5px;
+	text-align: center;
+	height:100px;
+	float:center;
+}
+#header #nav a {
+    font-size: 1em;
+}
+#contents {
+    padding: 5px;
+    line-height:4em;
+}
+#contents span {
+    border-style:solid;
+    border-width:2px;
+    border-color:#f4f4f4;
+    padding:2px;
+    margin:2px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    float:left;
+}
+#contents span:hover {
+    background:#f4f4f4;
+    cursor: hand;
+    cursor: pointer;
+}
+#contents div {
+    color: black;
+    padding: 1px 1px;
+    display: block;
+    height: 25px;
+    width: 25px;
+    float: left;
+}
+#contents span.hands {
+    padding-left: 0;
+    padding-right: 0;
+}
+#clipboard_buffer_container {
+    display: hidden;
+}
+body.clipboard-has-contents #clipboard_buffer_container {
+    display: hidden !important;
+}
+body.clipboard-has-contents #clipboard_buffer_container #clear_buffer {
+    display: hidden !important;
+}
+#formats {
+    display: hidden;
+}
+#clipboard_buffer {
+    display: hidden;
+    padding-right: 2px;
+}
+#clipboard_buffer span {
+    background: yellow;
+    padding: 0 2px;
+}
+body.as-html #clipboard_buffer span {
+    background: #33ff00;
+}
+#clipboard_empty {
+    display: hidden;
+}
+body.clipboard-has-contents #clipboard_empty {
+    display: none;
+}
+#toggle_copy {
+    margin-right: 15px;
+}
+#dotcom {
+    text-align: right;
+    float: right;
+}

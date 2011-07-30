@@ -1,0 +1,9 @@
+Song: 
+  Tempo: 14 
+  Flow: 
+    - Pattern1:  x1 
+Pattern1: 
+  - 909Kit/MT Mid.wav:  XXXX.XX..X..X.X. 
+  - 909Kit/Ride Low.wav:  .X....X.XX.XX... 
+  - 909Kit/SD Full.wav:  .XXX.X.....X..XX 
+  - 909Kit/OH 2.wav:  X..XX..X..X.X.X. 

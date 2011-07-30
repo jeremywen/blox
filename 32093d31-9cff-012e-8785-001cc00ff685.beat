@@ -1,0 +1,9 @@
+Song: 
+  Tempo: 164 
+  Flow: 
+    - Pattern1:  x1 
+Pattern1: 
+  - 909Kit/Crash Low.wav:  X.X.X.X.XXX.X..X 
+  - 909Kit/Ride Low.wav:  XXXXXX.X..XX.XX. 
+  - 909Kit/LT Hi.wav:  .XX..XX.X..X.XXX 
+  - 909Kit/Crash Low.wav:  .XX.XXXXXX..X..X 

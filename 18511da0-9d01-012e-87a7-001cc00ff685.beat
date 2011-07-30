@@ -1,0 +1,9 @@
+Song: 
+  Tempo: 171 
+  Flow: 
+    - Pattern1:  x1 
+Pattern1: 
+  - 909Kit/SD LowNoise.wav:  .X.X.XXXX.XXX.XX 
+  - 909Kit/SDNormal.wav:  ..X..XXX.X....X. 
+  - 909Kit/Ride Low.wav:  ..XXX.XXX.X..XXX 
+  - 909Kit/SD Full.wav:  X..X...X....X.X. 

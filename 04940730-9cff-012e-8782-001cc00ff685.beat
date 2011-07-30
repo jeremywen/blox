@@ -1,0 +1,9 @@
+Song: 
+  Tempo: 3 
+  Flow: 
+    - Pattern1:  x1 
+Pattern1: 
+  - 909Kit/LT Hi.wav:  ...X.X.XXX..X... 
+  - 909Kit/HT Hi.wav:  XX....XXX..XXXX. 
+  - 909Kit/Ride Hi.wav:  .XX.X.XXX.XX.X.X 
+  - 909Kit/HT Hi.wav:  XXXX...X..XXX.XX 
