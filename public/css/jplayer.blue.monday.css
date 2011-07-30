@@ -28,7 +28,7 @@ div.jp-video {
 	color: #666;
 }
 div.jp-audio {
-	width:420px;
+	width:480px;
 }
 div.jp-video-270p {
 	width:480px;
@@ -37,6 +37,7 @@ div.jp-video-360p {
 	width:640px;
 }
 div.jp-interface {
+	background: url("MyLogoSimple48.png") no-repeat right center;
 	position: relative;
 	background-color:#eee;
 	/* width:418px; */
@@ -70,6 +71,13 @@ div.jp-interface ul.jp-controls a {
 	position: absolute;
 	overflow:hidden;
 	text-indent:-9999px;
+}
+a.download-wav {
+	width:40px;
+	height:41px;
+	top:20px;
+	left:365px;
+	background: url("download.jpg") no-repeat;
 }
 a.jp-play,
 a.jp-pause {

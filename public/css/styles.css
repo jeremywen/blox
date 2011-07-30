@@ -69,7 +69,7 @@ pre, code {
     font-family: 'monospace';
 }
 #header, #header div {
-    font-size: 12px;
+    font-size: 9px;
 }
 #header {
 }
@@ -78,9 +78,12 @@ pre, code {
 }
 #header #nav {
     padding:5px;
-	text-align: center;
 	height:100px;
-	float:center;
+	
+}
+#message{
+	font-size: 8px;
+	text-align: center;
 }
 #header #nav a {
     font-size: 1em;

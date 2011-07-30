@@ -10,12 +10,13 @@
   %body#page_index
     #header.clearfix
       #nav
-        [1]Click a beatbox to play the audio. [2] Download it. [3] Visit
-        %a{:href => "http://jeremywentworth.com"} jeremywentworth.com		
         #jquery_jplayer_1 
         .jp-audio
           .jp-type-single
             #jp_interface_1.jp-interface
+              #message
+                1. Click a beatbox to play it. 2. Download it. 3. Visit
+                %a{:href => "http://jeremywentworth.com"} jeremywentworth.com		
               %ul.jp-controls
                 %li
                   %a.jp-play{:href => "#", :style => "display: block; ", :tabindex => "1"} play
@@ -27,6 +28,8 @@
                   %a.jp-mute{:href => "#", :tabindex => "1"} mute
                 %li
                   %a.jp-unmute{:href => "#", :style => "display: none; ", :tabindex => "1"} unmute
+                %li
+                  %a.download-wav{:href => "#", :style => "display: block; ", :tabindex => "1"} download
               .jp-progress
                 .jp-seek-bar{:style => "width: 100%; "}
                   .jp-play-bar{:style => "width: 5.009808113019543%; "}

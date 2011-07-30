@@ -3,16 +3,22 @@ require 'haml'
 require 'uuid'
 require "sinatra/reloader" if development?
 
+set :wavs, File.join(File.dirname(__FILE__),'public','wavs')
+
 configure do
   mime_type :wav, 'audio/wav'
 end
 
+get "/download/*.wav" do |file|
+  send_file session.wavs + file + '.wav', :type => "application/x-download"
+end
+
 get "/*.wav" do |file|
-  puts "file = "+file
-  send_file file+'.wav', :type => :wav
+  send_file session.wavs + file + '.wav', :type => :wav
 end
 
 post  "/get-audio" do
+
   request.body.rewind  # in case someone already read it
   data = request.body.read
   rows = data.split(" ")
@@ -37,21 +43,13 @@ post  "/get-audio" do
     }
   end  
 
-  success = system("beats",input_file_name,output_file_name)  
+  success = system("beats",input_file_name, session.wavs + output_file_name)  
   output_file_name
 end
 
-get "/:times/?" do 
-  x = params[:times].to_i
-  if x > max_blocks()
-    default_blocks()
-  end
-  @blocks = gen_blocks(x)
-  haml :beatblox
-end
-
 get "/?" do
-  default_blocks()
+  @blocks = gen_blocks(max_blocks())
+  haml :beatblox
 end
 
 
@@ -62,10 +60,6 @@ helpers do
 
   def max_blocks()
     1300
-  end
-  
-  def default_blocks()
-    redirect to("/#{max_blocks()}")
   end
   
   def gen_blocks(x)
