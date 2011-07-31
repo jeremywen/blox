@@ -78,12 +78,14 @@ pre, code {
 }
 #header #nav {
     padding:5px;
-	height:100px;
-	
+	height:90px;	
 }
-#message{
+#message1, #message2{
 	font-size: 8px;
 	text-align: center;
+}
+#message2{
+	line-height:110px;
 }
 #header #nav a {
     font-size: 1em;

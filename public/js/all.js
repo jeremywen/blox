@@ -1,13 +1,5 @@
 $(document).ready(function () {
 		/////////////////////////////////////////
-		//init player
-		/////////////////////////////////////////
-		$("#jquery_jplayer_1").jPlayer({
-				swfPath : "/js",
-				supplied : "wav"
-			});
-		
-		/////////////////////////////////////////
 		//center player
 		/////////////////////////////////////////
 		$(window).resize(function () {
@@ -20,6 +12,14 @@ $(document).ready(function () {
 				
 			});
 		$(window).resize();
+		
+		/////////////////////////////////////////
+		//init player
+		/////////////////////////////////////////
+		$("#jquery_jplayer_1").jPlayer({
+				swfPath : "/js",
+				supplied : "wav"
+			});
 		
 		/////////////////////////////////////////
 		//play wav file
@@ -44,10 +44,20 @@ $(document).ready(function () {
 		/////////////////////////////////////////
 		//download wav file
 		/////////////////////////////////////////
-		var download = $(".download-wav");
-		download.click(function (e) {
+		var downloadWav = $(".download-wav");
+		downloadWav.click(function (e) {
 				e.preventDefault();
-				window.location.href = '/download/'+download.attr("wavFile");
+				window.location.href = '/download/' + download.attr("wavFile");
+			});
+		
+		/////////////////////////////////////////
+		//download beat file
+		/////////////////////////////////////////
+		var downloadBeat = $(".download-beat");
+		downloadBeat.click(function (e) {
+				e.preventDefault();
+				var beatFile = $(".download-wav").attr("wavFile").replace(".wav",".beat");
+				window.location.href = '/download/' + beatFile;
 			});
 	});
  

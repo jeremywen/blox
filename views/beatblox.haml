@@ -14,10 +14,11 @@
         .jp-audio
           .jp-type-single
             #jp_interface_1.jp-interface
-              #message
-                1. Click a beatbox to play it. 2. Download it. 3. Visit
-                %a{:href => "http://jeremywentworth.com"} jeremywentworth.com		
+              #message1
+                1. Click a pattern below to play. 2. Download the wav and the beat. 
               %ul.jp-controls
+                %li
+                  %a.logo{:href => "http://jeremywentworth.com", :style => "display: block; ", :tabindex => "1"} logo
                 %li
                   %a.jp-play{:href => "#", :style => "display: block; ", :tabindex => "1"} play
                 %li
@@ -30,6 +31,8 @@
                   %a.jp-unmute{:href => "#", :style => "display: none; ", :tabindex => "1"} unmute
                 %li
                   %a.download-wav{:href => "#", :style => "display: block; ", :tabindex => "1"} download
+                %li
+                  %a.download-beat{:href => "#", :style => "display: block; ", :tabindex => "1"} download
               .jp-progress
                 .jp-seek-bar{:style => "width: 100%; "}
                   .jp-play-bar{:style => "width: 5.009808113019543%; "}
@@ -37,6 +40,11 @@
                 .jp-volume-bar-value{:style => "width: 80%; "}
               .jp-current-time 00:00
               .jp-duration 00:00
+              #message2                
+                Beats ruby gem created by 
+                %a{:href => "http://www.joelstrait.com"} joelstrait.com
+                | 
+                %a{:href => "http://beatsdrummachine.com"} beatsdrummachine.com 
             #jp_playlist_1.jp-playlist
         #clipboard_empty
         #clipboard_buffer_container{:style => "display: none;"}

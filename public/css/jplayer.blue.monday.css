@@ -37,12 +37,14 @@ div.jp-video-360p {
 	width:640px;
 }
 div.jp-interface {
-	background: url("MyLogoSimple48.png") no-repeat right center;
 	position: relative;
 	background-color:#eee;
 	/* width:418px; */
 	width:100%;
-	border:1px solid #009be3;
+	border-width:2px;
+    border-color:#f4f4f4;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 }
 div.jp-audio div.jp-type-single div.jp-interface {
 	height:80px;
@@ -72,12 +74,26 @@ div.jp-interface ul.jp-controls a {
 	overflow:hidden;
 	text-indent:-9999px;
 }
+a.logo {
+	width:48px;
+	height:48px;
+	top:15px;
+	left:0px;
+	background: url("MyLogoSimple48.png") no-repeat;
+}
 a.download-wav {
 	width:40px;
 	height:41px;
 	top:20px;
 	left:365px;
-	background: url("download.jpg") no-repeat;
+	background: url("download-wav.jpg") no-repeat;
+}
+a.download-beat {
+	width:40px;
+	height:41px;
+	top:20px;
+	left:415px;
+	background: url("download-beat.jpg") no-repeat;
 }
 a.jp-play,
 a.jp-pause {
@@ -88,7 +104,7 @@ a.jp-pause {
 div.jp-audio div.jp-type-single a.jp-play,
 div.jp-audio div.jp-type-single a.jp-pause {
 	top:20px;
-	left:40px;
+	left:45px;
 }
 div.jp-audio div.jp-type-playlist a.jp-play,
 div.jp-audio div.jp-type-playlist a.jp-pause {
@@ -360,7 +376,6 @@ div.jp-playlist {
 	/* width:418px; */
 	width:100%;
 	background-color:#ccc;
-	border:1px solid #009be3;
 	border-top:none;
 }
 div.jp-playlist ul {
