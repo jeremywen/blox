@@ -6,7 +6,7 @@
       %link{:charset => "utf-8", :href => "/css/styles.css", :media => "all", :rel => "stylesheet", :type => "text/css"}
       %link{:charset => "utf-8", :href => "/css/jplayer.blue.monday.css", :media => "all", :rel => "stylesheet", :type => "text/css"}
         %title
-          beatblox
+          bloX
   %body#page_index
     #header.clearfix
       #nav
@@ -53,9 +53,19 @@
         #formats
           %span.bullet
           %a#text_html_toggler{"alternate-value" => "As text", :href => "#", :name => "text_html_toggler"}
-    #contents
+    #contents.clearfix
       - for @block in @blocks
         %span{"data-entity" => ""}= (@block).join(" ")
+    #dotcom
+      %a{:href => "http://jpw.heroku.com/emo"} emo 
+      | 
+      %a{:href => "http://github.com/jeremywen"} github
+      | 
+      %a{:href => "http://twitter.com/jeremywen"} twitter
+      | 
+      %a{:href => "http://facebook.com/jeremy.wentworth"} facebook
+      | 
+      %a{:href => "http://jeremywentworth.com"} jeremywentworth.com
     %script{:charset => "utf-8", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js", :type => "text/javascript"}
     %script{:charset => "utf-8", :src => "/js/jquery.jplayer.min.js", :type => "text/javascript"}
     %script{:charset => "utf-8", :src => "/js/all.js", :type => "text/javascript"}

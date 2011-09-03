@@ -1,18 +1,5 @@
 $(document).ready(function () {
-		/////////////////////////////////////////
-		//center player
-		/////////////////////////////////////////
-		$(window).resize(function () {
-				
-				$('.jp-type-single').css({
-						position : 'absolute',
-						width : 480,
-						left : ($(window).width() - 480) / 2
-					});
-				
-			});
-		$(window).resize();
-		
+
 		/////////////////////////////////////////
 		//init player
 		/////////////////////////////////////////
@@ -28,15 +15,15 @@ $(document).ready(function () {
 				var block = $(this).html();
 				//alert(block);
 				$.post("/get-audio", block,
-					function (wavFile) {
-						//alert("wavFile Loaded: " + wavFile);
+					function (wavfile) {
+						//alert("wavFile Loaded: " + wavfile);
 						
-						$(".download-wav").attr("wavFile", wavFile);
+						$(".download-wav").attr("wavfile", wavfile);
 						
 						var player = $("#jquery_jplayer_1");
 						player.jPlayer("clearMedia");
 						player.jPlayer("setMedia", {
-								wav : wavFile
+								wav : wavfile
 							}).jPlayer("play");
 					});
 			});
@@ -47,7 +34,7 @@ $(document).ready(function () {
 		var downloadWav = $(".download-wav");
 		downloadWav.click(function (e) {
 				e.preventDefault();
-				window.location.href = '/download/' + download.attr("wavFile");
+				window.location.href = '/download/' + downloadWav.attr("wavfile");
 			});
 		
 		/////////////////////////////////////////
