@@ -1,10 +1,7 @@
-*.wav
-*.beat
-*.txt
 *.bat
 *.vbs
 *.kml
 visitors.*
 logs
-public\generated
+public/generated/
 tmp
